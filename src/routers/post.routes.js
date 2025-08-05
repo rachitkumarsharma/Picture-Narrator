@@ -1,4 +1,4 @@
-const express = require("express");
+// const express = require("express");
 const router = require("express").Router();
 const authMiddleware = require("../middlewares/auth.middleware");
 const multer = require("multer");

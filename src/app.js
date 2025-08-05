@@ -1,7 +1,7 @@
 const express = require("express");
 const authRoutes = require("./routers/auth.routes");
 const cookieParser = require("cookie-parser");
-const postRoutes = require("./routers/post.route");
+const postRoutes = require("./routers/post.routes");
 
 const app = express();
 app.use(express.json());
